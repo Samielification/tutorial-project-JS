@@ -5,13 +5,9 @@ console.log('Задача 1')
 
 const password = '15425-'
 
-if (password.includes('-') || password.includes('_')) {
-  if (password.length > 4) {
+if ((password.length >= 4) & (password.includes('-') || password.includes('_'))) {
     console.log('Пароль надёжный')
   } else {
-    console.log('Пароль недостаточно надёжный')
-  }
-} else {
     console.log('Пароль недостаточно надёжный')
 }
 

@@ -2,10 +2,10 @@ console.log('Задача 3')
 
 const number = 3;
 
-function even_odd(number) {
+function evenOdd(number) {
   return number % 2 === 0 ? "Число чётное" : "Число нечётное"
 }
 
-console.log(even_odd());
-console.log(even_odd(8));
-console.log(even_odd(5));
+console.log(evenOdd());
+console.log(evenOdd(8));
+console.log(evenOdd(5));
